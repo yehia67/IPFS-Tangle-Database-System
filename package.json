@@ -1,0 +1,31 @@
+{
+    "name": "tangle_ipfs_db",
+    "version": "1.0.0",
+    "description": "database system using tangle and DB",
+    "main": "index.js",
+    "scripts": {
+        "start": "ipfs daemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yehia67/Eco-Track.git"
+    },
+    "author": "Yehia Tarek",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yehia67/Eco-Track/issues"
+    },
+    "homepage": "https://github.com/yehia67/Eco-Track#readme",
+    "dependencies": {
+        "@iota/converter": "^1.0.0-beta.21",
+        "@iota/core": "^1.0.0-beta.21",
+        "@iota/mam": "^0.7.3",
+        "express": "^4.17.1",
+        "express-load": "^1.1.16",
+        "ipfs-http-client": "^40.0.1",
+        "ipfs-mini": "^1.1.5",
+        "node-fetch": "^2.6.0",
+        "zeromq": "^5.1.0"
+    }
+}
